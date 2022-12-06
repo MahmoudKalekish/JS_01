@@ -1,3 +1,6 @@
-var numberOne = Number(prompt("What is your first number?"));
-var numberTwo = Number(prompt("What is your second number?"));
-alert(numberOne * numberTwo);
+function multiplyBy()
+{
+       var num1 = document.getElementById("first_number").value;
+        var num2 = document.getElementById("second_number").value;
+        document.getElementById("result").innerHTML = num1 * num2;
+}
