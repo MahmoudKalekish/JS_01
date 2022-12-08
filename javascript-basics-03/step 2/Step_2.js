@@ -5,5 +5,4 @@ function showhide(use){
     } else if(use==="hide"){
         texte.style.display="none";
     }
-
 }
