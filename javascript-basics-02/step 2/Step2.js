@@ -1,5 +1,4 @@
-document.getElementById("myDialog").addEventListener("blur", myFunction);
-
-function myFunction() {
-    alert("thank you for participating!");
+function focu(){
+    const fake = document.querySelector("#name")
+    fake.value = "thank you for participating!"
 }
