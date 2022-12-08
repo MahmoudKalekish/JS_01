@@ -1,6 +1,12 @@
-function myFunction() {
-var r = confirm("Are you sure you want to reset all inputs?");
-if (r == true) {
-  form.reset();
-}
+function myFunction(){
+  const name = document.querySelector("#name");
+  const surname = document.querySelector("#surname");
+  const city = document.querySelector("#city");
+ 
+  var answer = confirm("Clear all fields ?");
+        if (answer) {
+          name.value = " ";
+          surname.value = " ";
+          city.value = " ";
+        }
 }
