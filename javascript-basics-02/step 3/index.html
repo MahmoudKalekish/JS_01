@@ -3,16 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>Step 3</title>
-  <script src="Step3.js"></script>
 </head>
 <body>
-  <div id="text">
+  <script type="text/javascript" src="Step3.js">
+  </script>
   <form>
-    
-    <label for="name">Your name  : </label><input type="text" name="name" value="" id="name" onchange="updateText(this.value);"/>
-  
+    <label for="name">Your name  : </label><input type="text" name="name" value="" id="name" onblur="func()"/>
   </form>
-</div>
-  <div id="result" style="height:40px;width:40px;border:1px solid #999"></div>
+  <div id="text">
+  </div>
 </body>
 </html>
